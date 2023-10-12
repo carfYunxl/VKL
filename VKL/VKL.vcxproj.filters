@@ -1,0 +1,1626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VKL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Extern\glm\detail\glm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Extern\vulkan\vulkan\vulkan.cppm">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Extern\GLFW\glfw3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\GLFW\glfw3native.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\_features.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\_fixes.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\_noise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\_swizzle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\_swizzle_func.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\_vectorize.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\compute_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\compute_vector_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\qualifier.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\setup.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_float.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_half.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat2x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat2x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat2x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat3x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat3x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat3x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat4x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat4x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_mat4x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_quat.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_vec1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_vec2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_vec3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\detail\type_vec4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_clip_space.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double2x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double2x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double2x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double3x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double3x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double3x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double4x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double4x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double4x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float2x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float2x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float2x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float3x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float3x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float3x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float4x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float4x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float4x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int2x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int2x2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int2x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int2x3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int2x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int2x4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int3x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int3x2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int3x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int3x3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int3x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int3x4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int4x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int4x2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int4x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int4x3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int4x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_int4x4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_projection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_transform.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint2x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint2x2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint2x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint2x3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint2x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint2x4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint3x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint3x2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint3x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint3x3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint3x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint3x4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint4x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint4x2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint4x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint4x3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint4x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\matrix_uint4x4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_double.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_double_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_exponential.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_float.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_float_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_geometric.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_transform.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_constants.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_int_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_integer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_packing.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_uint_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\scalar_ulp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool1_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_bool4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double1_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_double4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float1_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_float4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int1_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int1_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_int4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_integer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_packing.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint1_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint1_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint2_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint2_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint3_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint3_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint4_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_uint4_sized.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext\vector_ulp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\bitfield.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\color_space.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\constants.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\epsilon.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\integer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\matrix_access.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\matrix_integer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\matrix_inverse.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\matrix_transform.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\noise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\packing.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\quaternion.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\random.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\reciprocal.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\round.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\type_aligned.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\type_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\type_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\ulp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtc\vec1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\associated_min_max.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\bit.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\closest_point.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\color_encoding.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\color_space.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\compatibility.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\component_wise.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\dual_quaternion.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\easing.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\euler_angles.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\extend.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\extended_min_max.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\exterior_product.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\fast_exponential.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\fast_square_root.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\fast_trigonometry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\functions.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\gradient_paint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\hash.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\integer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\intersect.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\io.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\log_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_cross_product.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_decompose.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_factorisation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_interpolation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_major_storage.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_operation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_query.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\mixed_product.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\norm.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\normal.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\normalize_dot.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\number_precision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\optimum_pow.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\orthonormalize.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\perpendicular.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\polar_coordinates.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\projection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\quaternion.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\range.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\raw_data.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\rotate_vector.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\scalar_multiplication.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\scalar_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\spline.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\std_based_type.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\string_cast.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\texture.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\transform.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\transform2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\type_aligned.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\type_trait.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\vec_swizzle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\vector_angle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\vector_query.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\gtx\wrap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\exponential.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\geometric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\neon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\packing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\trigonometric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\simd\vector_relational.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\exponential.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\ext.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\geometric.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\glm.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\integer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat2x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat2x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat2x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat3x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat3x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat3x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat4x2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat4x3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\mat4x4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\matrix.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\packing.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\trigonometric.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\vec2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\vec3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\vec4.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\glm\vector_relational.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\dxc\dxcapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\dxc\WinAdapter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\arrays.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\BaseTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\ConstantUnion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\intermediate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\PoolAlloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\ResourceLimits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\SpirvIntrinsics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Include\Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\MachineIndependent\localintermediate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\MachineIndependent\Versions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Public\resource_limits_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Public\ResourceLimits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\Public\ShaderLang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\SPIRV\GlslangToSpv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\SPIRV\Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\SPIRV\spirv.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\SPIRV\spvIR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\SPIRV\SPVRemapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\glslang\SPIRV\SpvTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\shaderc\env.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\shaderc\shaderc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\shaderc\shaderc.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\shaderc\status.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\shaderc\visibility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\GLSL.std.450.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_cfg.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_cross.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_cross_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_cross_containers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_cross_error_handling.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_cross_parsed_ir.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_glsl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_hlsl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_msl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_parser.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv_cross\spirv_reflect.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-headers\GLSL.std.450.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-headers\spirv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-headers\spirv.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-tools\libspirv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-tools\libspirv.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-tools\linker.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\spirv-tools\optimizer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codec_h264std.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codec_h264std_decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codec_h264std_encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codec_h265std.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codec_h265std_decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codec_h265std_encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vk_video\vulkan_video_codecs_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vk_enum_string_helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vk_icd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vk_layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vk_platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_android.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_beta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_directfb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_enums.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_extension_inspection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_format_traits.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_fuchsia.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_funcs.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_ggp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_handles.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_hash.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_ios.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_macos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_metal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_profiles.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_raii.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_screen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_static_assertions.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_structs.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_to_string.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_vi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_video.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_wayland.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_xcb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_xlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern\vulkan\vulkan\vulkan_xlib_xrandr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Application.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Extern\glm\detail\func_common.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_common_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_exponential.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_exponential_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_geometric.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_geometric_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_integer.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_integer_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_matrix.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_matrix_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_packing.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_packing_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_trigonometric.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_trigonometric_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_vector_relational.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\func_vector_relational_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_half.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat2x2.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat2x3.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat2x4.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat3x2.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat3x3.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat3x4.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat4x2.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat4x3.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat4x4.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_mat4x4_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_quat.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_quat_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_vec1.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_vec2.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_vec3.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_vec4.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\detail\type_vec4_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\matrix_clip_space.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\matrix_common.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\matrix_projection.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\matrix_relational.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\matrix_transform.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_common.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_common_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_exponential.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_geometric.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_relational.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_transform.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\quaternion_trigonometric.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\scalar_common.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\scalar_constants.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\scalar_integer.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\scalar_packing.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\scalar_relational.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\scalar_ulp.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\vector_common.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\vector_integer.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\vector_packing.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\vector_relational.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\ext\vector_ulp.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\bitfield.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\color_space.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\constants.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\epsilon.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\integer.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\matrix_access.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\matrix_inverse.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\matrix_transform.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\noise.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\packing.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\quaternion.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\quaternion_simd.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\random.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\reciprocal.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\round.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\type_precision.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\type_ptr.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtc\ulp.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\associated_min_max.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\bit.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\closest_point.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\color_encoding.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\color_space.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\color_space_YCoCg.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\common.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\compatibility.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\component_wise.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\dual_quaternion.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\easing.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\euler_angles.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\extend.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\extended_min_max.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\exterior_product.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\fast_exponential.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\fast_square_root.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\fast_trigonometry.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\float_notmalize.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\functions.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\gradient_paint.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\handed_coordinate_space.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\hash.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\integer.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\intersect.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\io.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\log_base.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_cross_product.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_decompose.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_factorisation.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_interpolation.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_major_storage.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_operation.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_query.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\matrix_transform_2d.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\mixed_product.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\norm.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\normal.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\normalize_dot.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\number_precision.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\optimum_pow.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\orthonormalize.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\perpendicular.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\polar_coordinates.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\projection.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\quaternion.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\raw_data.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\rotate_vector.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\scalar_relational.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\spline.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\std_based_type.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\string_cast.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\texture.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\transform.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\transform2.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\type_aligned.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\type_trait.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\vector_angle.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\vector_query.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Extern\glm\gtx\wrap.inl">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\glfw3.lib" />
+    <Library Include="lib\vulkan\dxcompiler.lib" />
+    <Library Include="lib\vulkan\GenericCodeGen.lib" />
+    <Library Include="lib\vulkan\glslang.lib" />
+    <Library Include="lib\vulkan\glslang-default-resource-limits.lib" />
+    <Library Include="lib\vulkan\HLSL.lib" />
+    <Library Include="lib\vulkan\MachineIndependent.lib" />
+    <Library Include="lib\vulkan\OGLCompiler.lib" />
+    <Library Include="lib\vulkan\OSDependent.lib" />
+    <Library Include="lib\vulkan\shaderc.lib" />
+    <Library Include="lib\vulkan\shaderc_combined.lib" />
+    <Library Include="lib\vulkan\shaderc_shared.lib" />
+    <Library Include="lib\vulkan\shaderc_util.lib" />
+    <Library Include="lib\vulkan\SPIRV.lib" />
+    <Library Include="lib\vulkan\spirv-cross-c.lib" />
+    <Library Include="lib\vulkan\spirv-cross-core.lib" />
+    <Library Include="lib\vulkan\spirv-cross-cpp.lib" />
+    <Library Include="lib\vulkan\spirv-cross-c-shared.lib" />
+    <Library Include="lib\vulkan\spirv-cross-glsl.lib" />
+    <Library Include="lib\vulkan\spirv-cross-hlsl.lib" />
+    <Library Include="lib\vulkan\spirv-cross-msl.lib" />
+    <Library Include="lib\vulkan\spirv-cross-reflect.lib" />
+    <Library Include="lib\vulkan\spirv-cross-util.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools-diff.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools-link.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools-lint.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools-opt.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools-reduce.lib" />
+    <Library Include="lib\vulkan\SPIRV-Tools-shared.lib" />
+    <Library Include="lib\vulkan\SPVRemapper.lib" />
+    <Library Include="lib\vulkan\vulkan-1.lib" />
+  </ItemGroup>
+</Project>
