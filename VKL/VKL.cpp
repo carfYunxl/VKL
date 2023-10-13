@@ -6,7 +6,7 @@ int main()
     VL::Application application;
 
     try {
-        application.Run();
+        application.run();
     }
     catch (const std::exception& e)
     {
